@@ -16,69 +16,123 @@
           <button type="button">로그인</button>
         </div>
       </header>
-      <section id="profile-container">
-        <h2>유저 프로필</h2>
-        <div class="user-profile">
-          <div class="user-profile__img">
-            <img src="./assets/images/user_profile.jpeg" alt="프로필 이미지" />
-          </div>
-          <em class="user-profile__name">BELL</em>
-          <p class="user-profile__description">
-            안녕하세요:) 벨의 블로그입니다!
-          </p>
-        </div>
-      </section>
-      <nav id="gnb">
-        <h2>사이트 메인 메뉴</h2>
-        <ul class="gnb-menu">
-          <li class="gnb-menu__item">
-            <a href="#;">글</a>
-          </li>
-          <li class="gnb-menu__item">
-            <a href="#;">시리즈</a>
-          </li>
-          <li class="gnb-menu__item">
-            <a href="#;">소개</a>
-          </li>
-        </ul>
-      </nav>
-      <main id="main">
-        <section class="articles">
-          <h2>게시글 목록</h2>
-          <div class="articles__inner">
-            <article class="article">
-              <figure class="article__thumb">
-                <img
-                  src="./assets//images/article_thumb_01.jpeg"
-                  alt="게시글 이미지"
-                />
-              </figure>
-              <h2 class="article__title">블로그 웹사이트 개발하기</h2>
-              <p class="article__p">
-                블로그 웹사이트 개발하기 첫 번째 스터디 내용입니다. 2022년 10월
-                27일 목요일 12시 두 번째 시간! 참석자 벨, 카쿠. 블로그 웹사이트
-                개발하기 첫 번째 스터디 내용입니다. 2022년 10월 27일 목요일 12시
-                두 번째 시간! 참석자 벨, 카쿠.
-              </p>
-            </article>
-            <article class="article">
-              <figure class="article__thumb">
-                <img
-                  src="./assets//images/article_thumb_02.jpeg"
-                  alt="게시글 이미지"
-                />
-              </figure>
-              <h2 class="article__title">블로그 웹사이트 개발하기</h2>
-              <p class="article__p">
-                블로그 웹사이트 개발하기 첫 번째 스터디 내용입니다. 2022년 10월
-                27일 목요일 12시 두 번째 시간! 참석자 벨, 카쿠. 블로그 웹사이트
-                개발하기 첫 번째 스터디 내용입니다. 2022년 10월 27일 목요일 12시
-                두 번째 시간! 참석자 벨, 카쿠.
-              </p>
-            </article>
+      <div id="body">
+        <section id="profile-container">
+          <h2>유저 프로필</h2>
+          <div class="user-profile">
+            <div class="user-profile__img">
+              <img
+                src="./assets/images/user_profile.jpeg"
+                alt="프로필 이미지"
+              />
+            </div>
+            <em class="user-profile__name">BELL</em>
+            <p class="user-profile__descrip">안녕하세요:) 벨의 블로그입니다!</p>
+            <div class="sns-link">
+              <a href="#;">깃허브</a>
+              <a href="#;">인스타그램</a>
+            </div>
           </div>
         </section>
-      </main>
+        <nav id="gnb">
+          <h2>메인 메뉴</h2>
+          <ul class="gnb-menu">
+            <li class="gnb-menu__item">
+              <a href="#;">홈</a>
+            </li>
+            <li class="gnb-menu__item">
+              <a href="#;">게시글</a>
+            </li>
+            <li class="gnb-menu__item">
+              <a href="#;">소개</a>
+            </li>
+          </ul>
+        </nav>
+        <main id="main">
+          <section class="articles">
+            <h2>게시글 목록</h2>
+            <div class="articles__inner">
+              <article class="article">
+                <h2 class="article__title">블로그 웹사이트 개발하기 Part 1</h2>
+                <p class="article__content">
+                  블로그 웹사이트 개발하기 첫 번째 스터디 내용입니다. 2022년
+                  10월 27일 목요일 12시 두 번째 시간! 참석자 벨, 카쿠. 블로그
+                  웹사이트 개발하기 첫 번째 스터디 내용입니다. 2022년 10월 27일
+                  목요일 12시 두 번째 시간! 참석자 벨, 카쿠.
+                </p>
+                <div class="article__meta">
+                  <div class="tags">
+                    <a href="#;">블로그만들기</a>
+                    <a href="#;">블로그개발</a>
+                    <a href="#;">개발스터디</a>
+                  </div>
+                  <div class="other-info">
+                    <span class="other-info__date">5시간 전</span>
+                    <span class="other-info__comment">3개의 댓글</span>
+                    <span class="other-info__likes">좋아요 7개</span>
+                  </div>
+                </div>
+              </article>
+              <article class="article">
+                <h2 class="article__title">블로그 웹사이트 개발하기 Part 2</h2>
+                <p class="article__content">
+                  블로그 웹사이트 개발하기 첫 번째 스터디 내용입니다. 2022년
+                  10월 27일 목요일 12시 두 번째 시간! 참석자 벨, 카쿠. 블로그
+                  웹사이트 개발하기 첫 번째 스터디 내용입니다. 2022년 10월 27일
+                  목요일 12시 두 번째 시간! 참석자 벨, 카쿠.
+                </p>
+                <div class="article__meta">
+                  <div class="tags">
+                    <a href="#;">블로그만들기</a>
+                    <a href="#;">블로그개발</a>
+                    <a href="#;">개발스터디</a>
+                  </div>
+                  <div class="other-info">
+                    <span class="other-info__date">7일 전</span>
+                    <span class="other-info__comment">2개의 댓글</span>
+                    <span class="other-info__likes">좋아요 7개</span>
+                  </div>
+                </div>
+              </article>
+              <article class="article">
+                <h2 class="article__title">블로그 웹사이트 개발하기 Part 3</h2>
+                <p class="article__content">
+                  블로그 웹사이트 개발하기 첫 번째 스터디 내용입니다. 2022년
+                  10월 27일 목요일 12시 두 번째 시간! 참석자 벨, 카쿠. 블로그
+                  웹사이트 개발하기 첫 번째 스터디 내용입니다. 2022년 10월 27일
+                  목요일 12시 두 번째 시간! 참석자 벨, 카쿠.
+                </p>
+                <div class="article__meta">
+                  <div class="tags">
+                    <a href="#;">블로그만들기</a>
+                    <a href="#;">블로그개발</a>
+                    <a href="#;">개발스터디</a>
+                  </div>
+                  <div class="other-info">
+                    <span class="other-info__date">2022년 10월 1일</span>
+                    <span class="other-info__comment">1개의 댓글</span>
+                    <span class="other-info__likes">좋아요 7개</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+        </main>
+      </div>
+      <div id="aside-right">
+        <strong class="aside-right__title">최근 업데이트</strong>
+        <ul class="latest-update">
+          <li class="latest-update__item">
+            <a href="#;">블로그 웹사이트 개발하기 Part 3</a>
+          </li>
+          <li class="latest-update__item">
+            <a href="#;">블로그 웹사이트 개발하기 Part 2</a>
+          </li>
+          <li class="latest-update__item">
+            <a href="#;">블로그 웹사이트 개발하기 Part 1</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
