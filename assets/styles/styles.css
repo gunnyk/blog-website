@@ -29,6 +29,15 @@ img {
   vertical-align: top;
 }
 
+/* 
+  Global Styles
+*/
+
+::selection {
+  color: #fff;
+  background-color: #333;
+}
+
 .blind {
   overflow: hidden;
   position: absolute;
@@ -46,38 +55,61 @@ body {
     'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic',
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'sans-serif';
   color: #111;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 #root {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1480px;
   margin: 0 auto;
+  padding: 0 20px;
 }
+
+/* 
+  Header
+*/
 
 #header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
-  padding: 0 20px;
-  border: 1px solid #111;
+  height: 60px;
+}
+
+.header__title > h1 {
+  font-weight: 600;
+  font-size: 22px;
 }
 
 #body {
+  position: relative;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.body__inner {
   display: flex;
   flex-direction: column;
   row-gap: 40px;
   width: 100%;
-  max-width: 880px;
-  margin: 40px auto;
-  border: 1px solid #111;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+/* 
+  User Profile
+*/
+
+#profile-container {
+  padding: 20px;
+  border-radius: 14px;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .user-profile {
   display: flex;
   column-gap: 14px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid #e1e1e1;
 }
 
 .user-profile__img {
@@ -98,11 +130,11 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding-top: 6px;
+  padding-top: 4px;
 }
 
 .user-profile__name {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
 }
 
