@@ -142,3 +142,35 @@ body {
   margin: auto 0 0 auto;
   padding-top: 10px;
 }
+
+/* 
+  Gnb
+*/
+
+.gnb-menu {
+  display: flex;
+  column-gap: 10px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.gnb-menu__item {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.gnb-menu__item.active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.gnb-menu__item-link {
+  display: block;
+  min-width: 40px;
+  padding: 4px 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.gnb-menu__item-link:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
