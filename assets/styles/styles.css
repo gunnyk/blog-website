@@ -129,19 +129,19 @@ body {
   object-fit: cover;
 }
 
-.user-profile__right {
+.user-profile__info {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   padding-top: 4px;
 }
 
-.user-profile__name {
+.user-info__name {
   font-weight: 600;
   font-size: 20px;
 }
 
-.user-profile__sns-link {
+.user-info__sns-link {
   margin: auto 0 0 auto;
   padding-top: 10px;
 }
@@ -226,13 +226,13 @@ body {
   margin-top: 10px;
 }
 
-.article__tags {
+.article-tags {
   overflow: hidden;
   display: flex;
   column-gap: 10px;
 }
 
-.article__tag {
+.article-tags__item {
   min-width: 40px;
   padding: 2px 8px;
   border-radius: 6px;
@@ -241,18 +241,18 @@ body {
   color: #fff;
 }
 
-.article__tag:hover {
+.article-tags__item:hover {
   background-color: rgba(0, 0, 0, 0.09);
   color: #111;
 }
 
-.article__other-info {
+.article-other-info {
   display: flex;
   font-size: 14px;
   color: #444;
 }
 
-.other-info__item + .other-info__item::before {
+.article-other-info__item + .article-other-info__item::before {
   display: inline-block;
   margin: 0 4px;
   content: '∙';
